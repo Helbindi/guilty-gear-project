@@ -1,3 +1,7 @@
+.body {
+  background-color: #4f4f4f;
+}
+
 .underline {
   width: 6rem;
   height: 0.25rem;
@@ -8,7 +12,8 @@
 }
 
 .page-container {
-  padding-top: 6em;
+  padding-top: 5em;
+  min-width: 320px;
 }
 
 .page-container h1 {
@@ -26,13 +31,30 @@
   max-width: 1400px;
 }
 
-@media screen and (max-width: 750px) {
+.page-header-img {
+  position: relative;
+}
+
+.btn-group .btn {
+  position: absolute;
+  top: 77%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: #ff0000ab;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 10px 10px;
+  border: 1px solid #ff0000ab;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
   .page-header {
     flex-direction: column;
-  }
-
-  .page-header-img {
-    max-height: 500px;
   }
 }
 
@@ -52,7 +74,8 @@
   height: auto;
 }
 
-.button-container {
+.input-container {
+  /* MoveList.js */
   display: flex;
   justify-content: center;
   background-color: black;
@@ -60,4 +83,9 @@
   margin: 0 auto;
   max-width: 700px;
   border: 1px solid #d8f8dd;
+}
+
+.input-container img {
+  width: 50px;
+  height: 50px;
 }

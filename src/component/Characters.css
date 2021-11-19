@@ -20,6 +20,7 @@
   margin: 1em;
   border: 1px solid #d8f8dd;
   overflow: hidden;
+  min-width: 100px;
 }
 
 .card-character img {

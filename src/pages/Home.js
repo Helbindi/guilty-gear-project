@@ -15,6 +15,12 @@ function Home() {
         <header className="page-header">
                 <div className="page-header-img">
                     <img src="images/background/Product.jpg" alt="Product" />
+                    <div className="btn-group">
+                        <a href="https://www.guiltygear.com/ggst/en/" 
+                        target="_blank" rel="noopener noreferrer" 
+                        className="btn"> Learn More
+                        </a>
+                    </div>
                 </div>
 
                 <div className="page-header-vid">

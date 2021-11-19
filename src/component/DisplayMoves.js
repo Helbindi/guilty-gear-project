@@ -38,7 +38,7 @@ function DisplayMoves(props) {
                     className={toggleActiveStyle(item.id)}
                     key={item.id}
                     src={item.imageURL} 
-                    alt="" 
+                    alt="attack"
                     onClick={() => setImageState(item.id)}
                   />
                 </div>

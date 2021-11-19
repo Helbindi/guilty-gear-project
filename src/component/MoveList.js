@@ -21,7 +21,6 @@ const ButtonGroup = styled.div`
   flex-direction: row;
   padding: 1em;
   margin: 0 auto;
-  min-width: 380px;
   width: 100%;
 `;
 
@@ -31,7 +30,7 @@ function MoveList(props) {
 
   return (
     <div>
-      <div className="button-container">
+      <div className="input-container">
         <h1>
           {props.title}
           <div className="underline"></div>
