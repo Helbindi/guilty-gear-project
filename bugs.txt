@@ -1,0 +1,13 @@
+Bug: When you swap between Moves(Standing -> Forward),
+    the State of Inputs remain the same. Thus, if you
+    leave an Active State larger than the follow Move.
+    The App will crash.
+
+Example: Click HS or D Image for Standing, and swap to Forward.
+        HS and D have State 3 / State 4, while Forward only has
+        3 Images, thus only has a max State of 2. When attempting
+        to swap, it tries to look for a video of using State 3 or 4.
+        
+Attempt: Try to reset the State to 0 when you swap from Standing to Forward.
+
+Solution: https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#recommendation-fully-controlled-component

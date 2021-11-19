@@ -1,0 +1,158 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar-header img {
+  background-color: transparent;
+  width: 100%;
+}
+
+/* Navigation */
+nav {
+  background: black;
+  margin-bottom: 1em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  height: 5em;
+}
+
+.navbar-header img {
+  max-width: 150px;
+  height: auto;
+}
+
+.navbar-toggle {
+  font-size: 1.5em;
+  color: white;
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.navbar-toggle:hover {
+  color: red;
+  transform: rotate(90deg);
+}
+
+/* Links */
+.links a {
+  color: white;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  display: block;
+  padding: 0.5em 1em;
+  transition: all 0.3s linear;
+}
+
+.links a:hover {
+  color: red;
+  padding-left: 1.5em;
+}
+
+.links-container {
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.social-icons {
+  display: none;
+}
+
+/* Dropdown */
+.dropdown-content {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #4f4f4f;
+  padding-top: 0.5em;
+  max-height: 310px;
+  width: 100%;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.dropdown-link:hover {
+  padding-left: 0.5em;
+}
+
+.dropdown-img {
+  height: 50px;
+  object-fit: cover;
+}
+
+.dropdown-link:hover {
+  transform: scale(1.05);
+}
+
+/* Screen Resize */
+
+@media screen and (min-width: 750px) {
+  .navbar-center {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-header {
+    padding: 0;
+  }
+  .navbar-header img {
+    margin-left: 1em;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5em;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .dropdown-content {
+    width: fit-content;
+  }
+
+  .social-icons {
+    display: flex;
+  }
+}
