@@ -8,9 +8,7 @@ import './page.css';
 
 function Sol() {
     const background = {
-        backgroundImage: `url(images/background/TimesSquare.jpg)`,
-        backgroundSize: '100%',
-        backgroundAttachment: 'fixed'
+        backgroundImage: `url(images/background/TimesSquare.jpg)`
     }
     return (
         <div className="page-container" style={background}>

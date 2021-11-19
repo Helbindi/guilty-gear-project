@@ -8,9 +8,7 @@ import './page.css';
 
 function Nago() {
     const background = {
-        backgroundImage: `url(images/background/Observatory.jpg)`,
-        backgroundSize: '100%',
-        backgroundAttachment: 'fixed'
+        backgroundImage: `url(images/background/Observatory.jpg)`
     }
     return (
         <div className="page-container" style={background}>

@@ -8,9 +8,7 @@ import './page.css';
 
 function Ramlethal() {
     const background = {
-        backgroundImage: `url(images/background/SeventhHeaven.jpg)`,
-        backgroundSize: '100%',
-        backgroundAttachment: 'fixed'
+        backgroundImage: `url(images/background/SeventhHeaven.jpg)`
     }
     return (
         <div className="page-container" style={background}>

@@ -6,9 +6,7 @@ import './page.css';
 
 function Home() {
     const background = {
-        backgroundImage: `url(images/background/LarsCanyon.jpg)`,
-        backgroundSize: '100%',
-        backgroundAttachment: 'fixed'
+        backgroundImage: `url(images/background/LarsCanyon.jpg)`
     }
     return (
     <div className="page-container" style={background}>

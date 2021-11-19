@@ -8,9 +8,7 @@ import './page.css';
 
 function Giovanna() {
     const background = {
-        backgroundImage: `url(images/background/Ajatar.jpg)`,
-        backgroundSize: '100%',
-        backgroundAttachment: 'fixed'
+        backgroundImage: `url(images/background/Ajatar.jpg)`
     }
 
     return (

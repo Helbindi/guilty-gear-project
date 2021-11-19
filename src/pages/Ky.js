@@ -8,9 +8,7 @@ import './page.css';
 
 function Ky() {
     const background = {
-        backgroundImage: `url(images/background/SilverFeet.jpg)`,
-        backgroundSize: '100%',
-        backgroundAttachment: 'fixed'
+        backgroundImage: `url(images/background/SilverFeet.jpg)`
     }
     return (
         <div className="page-container" style={background}>
