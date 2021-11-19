@@ -1,0 +1,55 @@
+.music-container {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: black;
+  border: 1px solid #d8f8dd;
+}
+
+.song-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.song-container h2 {
+  color: white;
+}
+
+.song-container h3 {
+  color: red;
+}
+
+.song-info {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: gray;
+  width: 75px;
+  height: 75px;
+  margin: 1em auto;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+@media screen and (max-width: 700px) {
+  .prev-btn,
+  .next-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .song-info {
+    font-size: 0.75em;
+  }
+}

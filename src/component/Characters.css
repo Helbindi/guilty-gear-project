@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: black;
   flex-direction: column;
-  margin: 45px auto;
+  margin: 1em auto;
   max-width: 1200px;
   border: 1px solid #d8f8dd;
 }
