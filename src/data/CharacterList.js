@@ -1,27 +1,33 @@
+import sol  from '../assets/images/icons/sol.jpg';
+import ky  from '../assets/images/icons/ky.jpg';
+import ramlethal  from '../assets/images/icons/ramlethal.jpg';
+import nago  from '../assets/images/icons/nago.jpg';
+import gio  from '../assets/images/icons/gio.jpg';
+
 export const CharacterList = [
     {
         id: 0,
         name: 'Sol',
-        imageURL: 'images/icons/sol.jpg'
+        imageURL: sol
     },
     {
         id: 1,
         name: 'Ky',
-        imageURL: 'images/icons/ky.jpg'
+        imageURL: ky
     },
     {
         id: 2,
         name: 'Ramlethal',
-        imageURL: 'images/icons/ramlethal.jpg'
+        imageURL: ramlethal
     },
     {
         id: 3,
         name: 'Nagoriyuki',
-        imageURL: 'images/icons/nago.jpg'
+        imageURL: nago
     },
     {
         id: 4,
         name: 'Giovanna',
-        imageURL: 'images/icons/gio.jpg'
+        imageURL: gio
     }
 ]

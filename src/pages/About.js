@@ -1,9 +1,10 @@
 import React from 'react';
 import './page.css';
+import Jellyfish  from '../assets/images/background/Jellyfish.jpg';
 
 function About() {
     const background = {
-        backgroundImage: `url(images/background/Jellyfish.jpg)`
+        backgroundImage: `url(${Jellyfish})`
     }
     return (
         <div className="page-container" style={background}>

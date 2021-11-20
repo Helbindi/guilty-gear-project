@@ -5,21 +5,24 @@ import { BasicMoves } from '../data/Gio/BasicMoves';
 import { SpecialMoves } from '../data/Gio/SpecialMoves';
 import { Overdrive } from '../data/Gio/Overdrive';
 import './page.css';
+import Ajatar from '../assets/images/background/Ajatar.jpg';
+import Gio from '../assets/images/background/Gio.jpg';
+import Trailer from '../assets/videos/Gio/Trailer.mp4';
 
 function Giovanna() {
     const background = {
-        backgroundImage: `url(images/background/Ajatar.jpg)`
+        backgroundImage: `url(${Ajatar})`
     }
 
     return (
         <div className="page-container" style={background}>
             <header className="page-header">
                 <div className="page-header-img">
-                    <img src="images/background/Gio.jpg" alt="Gio" />
+                    <img src={Gio} alt="Gio" />
                 </div>
 
                 <div className="page-header-vid">
-                    <Hero url='/videos/Gio/Trailer.mp4'/>
+                    <Hero url={Trailer}/>
                 </div>
             </header>
 
