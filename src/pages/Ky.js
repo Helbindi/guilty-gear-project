@@ -5,10 +5,12 @@ import { BasicMoves } from '../data/Ky/BasicMoves';
 import { SpecialMoves } from '../data/Ky/SpecialMoves';
 import { Overdrive } from '../data/Ky/Overdrive';
 import './page.css';
+import SilverFeet from '../assets/images/background/SilverFeet.jpg';
+import trailer from '../assets/videos/Sol/trailer.mp4'
 
 function Ky() {
     const background = {
-        backgroundImage: `url(images/background/SilverFeet.jpg)`
+        backgroundImage: `url(${SilverFeet})`
     }
     return (
         <div className="page-container" style={background}>
@@ -18,7 +20,7 @@ function Ky() {
                 </div>
 
                 <div className="page-header-vid">
-                    <Hero url='/videos/Sol/trailer.mp4'/>
+                    <Hero url={trailer}/>
                 </div>
             </header>
 

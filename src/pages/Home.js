@@ -3,10 +3,11 @@ import Hero from '../component/Hero';
 import Characters from '../component/Characters';
 import Music from '../component/Music';
 import './page.css';
+import LarsCanyon from '../assets/images/background/LarsCanyon.jpg';
 
 function Home() {
     const background = {
-        backgroundImage: `url(images/background/LarsCanyon.jpg)`
+        backgroundImage: `url(${LarsCanyon})`
     }
     return (
     <div className="page-container" style={background}>

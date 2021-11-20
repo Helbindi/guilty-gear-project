@@ -1,18 +1,27 @@
+//images
+import HeavySlash  from '../../assets/images/button/HeavySlash.png';
+import HCBF  from '../../assets/images/input/HCB_F.png';
+import QCBx2  from '../../assets/images/input/QCBx2.png';
+
+//videos
+import Overdrive1 from '../../assets/videos/Sol/Overdrive/Overdrive1.mp4';
+import Overdrive2 from '../../assets/videos/Sol/Overdrive/Overdrive2.mp4';
+
 export const Overdrive = [
     {
     id: 0,
     name: 'Half Circle Back + Forward',
-    dpad: "images/input/HCB_F.png",
+    dpad: HCBF,
     moves: [
-      { id: 0, imageURL:'images/button/HeavySlash.png', videoURL: '/videos/Sol/Overdrive/Overdrive1.mp4'}
+      { id: 0, imageURL: HeavySlash, videoURL: Overdrive1}
     ]
   },
   {
     id: 1,
     name: 'Quarter Circle Back x2',
-    dpad: "images/input/QCBx2.png",
+    dpad: QCBx2,
     moves: [
-      { id: 0, imageURL:'images/button/HeavySlash.png', videoURL: '/videos/Sol/Overdrive/Overdrive2.mp4'}
+      { id: 0, imageURL: HeavySlash, videoURL: Overdrive2}
     ]
   }
 ]

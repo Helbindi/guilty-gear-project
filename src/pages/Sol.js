@@ -5,10 +5,12 @@ import { BasicMoves } from '../data/Sol/BasicMoves';
 import { SpecialMoves } from '../data/Sol/SpecialMoves';
 import { Overdrive } from '../data/Sol/Overdrive';
 import './page.css';
+import TimesSquare from '../assets/images/background/TimesSquare.jpg';
+import trailer from '../assets/videos/Sol/trailer.mp4'
 
 function Sol() {
     const background = {
-        backgroundImage: `url(images/background/TimesSquare.jpg)`
+        backgroundImage: `url(${TimesSquare})`
     }
     return (
         <div className="page-container" style={background}>
@@ -18,7 +20,7 @@ function Sol() {
                 </div>
 
                 <div className="page-header-vid">
-                    <Hero url='/videos/Sol/trailer.mp4'/>
+                    <Hero url={trailer}/>
                 </div>
             </header>
             
