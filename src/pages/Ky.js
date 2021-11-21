@@ -6,6 +6,7 @@ import { SpecialMoves } from '../data/Ky/SpecialMoves';
 import { Overdrive } from '../data/Ky/Overdrive';
 import './page.css';
 import SilverFeet from '../assets/images/background/SilverFeet.jpg';
+import image from '../assets/images/background/Ky.jpg';
 import trailer from '../assets/videos/Sol/trailer.mp4'
 
 function Ky() {
@@ -16,7 +17,7 @@ function Ky() {
         <div className="page-container" style={background}>
             <header className="page-header">
                 <div className="page-header-img">
-                    <img src="images/background/Ky.jpg" alt="Ky" />
+                    <img src={image} alt="Ky" />
                 </div>
 
                 <div className="page-header-vid">

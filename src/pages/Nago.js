@@ -5,20 +5,23 @@ import { BasicMoves } from '../data/Nago/BasicMoves';
 import { SpecialMoves } from '../data/Nago/SpecialMoves';
 import { Overdrive } from '../data/Nago/Overdrive';
 import './page.css';
+import Observatory from '../assets/images/background/Observatory.jpg';
+import image from '../assets/images/background/Nago.jpg';
+import trailer from '../assets/videos/Nago/trailer.mp4';
 
 function Nago() {
     const background = {
-        backgroundImage: `url(images/background/Observatory.jpg)`
+        backgroundImage: `url(${Observatory})`
     }
     return (
         <div className="page-container" style={background}>
             <header className="page-header">
                 <div className="page-header-img">
-                    <img src="images/background/Nago.jpg" alt="Nago" />
+                    <img src={image} alt="Nago" />
                 </div>
 
                 <div className="page-header-vid">
-                    <Hero url='/videos/Nago/trailer.mp4'/>
+                    <Hero url={trailer}/>
                 </div>
             </header>
 

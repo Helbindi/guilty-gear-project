@@ -1,5 +1,4 @@
 //images
-import Punch  from '../../assets/images/button/Punch.png';
 import Kick  from '../../assets/images/button/Kick.png';
 import Slash  from '../../assets/images/button/Slash.png';
 import HeavySlash  from '../../assets/images/button/HeavySlash.png';

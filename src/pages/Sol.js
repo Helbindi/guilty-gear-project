@@ -6,6 +6,7 @@ import { SpecialMoves } from '../data/Sol/SpecialMoves';
 import { Overdrive } from '../data/Sol/Overdrive';
 import './page.css';
 import TimesSquare from '../assets/images/background/TimesSquare.jpg';
+import image from '../assets/images/background/Sol.jpg';
 import trailer from '../assets/videos/Sol/trailer.mp4'
 
 function Sol() {
@@ -16,7 +17,7 @@ function Sol() {
         <div className="page-container" style={background}>
             <header className="page-header">
                 <div className="page-header-img">
-                    <img src="https://www.upcomer.com/wp-content/uploads/2021/06/01.jpg" alt="Sol" />
+                    <img src={image} alt="Sol" />
                 </div>
 
                 <div className="page-header-vid">

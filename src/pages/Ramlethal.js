@@ -5,20 +5,23 @@ import { BasicMoves } from '../data/Ram/BasicMoves';
 import { SpecialMoves } from '../data/Ram/SpecialMoves';
 import { Overdrive } from '../data/Ram/Overdrive';
 import './page.css';
+import SeventhHeaven from '../assets/images/background/SeventhHeaven.jpg';
+import image from '../assets/images/background/Ram.jpg';
+import trailer from '../assets/videos/Ram/trailer.mp4';
 
 function Ramlethal() {
     const background = {
-        backgroundImage: `url(images/background/SeventhHeaven.jpg)`
+        backgroundImage: `url(${SeventhHeaven})`
     }
     return (
         <div className="page-container" style={background}>
             <header className="page-header">
                 <div className="page-header-img">
-                    <img src="images/background/Ram.jpg" alt="Ram" />
+                    <img src={image} alt="Ram" />
                 </div>
 
                 <div className="page-header-vid">
-                    <Hero url='/videos/Ram/trailer.mp4'/>
+                    <Hero url={trailer}/>
                 </div>
             </header>
 
