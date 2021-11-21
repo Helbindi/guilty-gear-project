@@ -11,7 +11,7 @@ import trailer from '../assets/videos/Sol/trailer.mp4'
 
 function Ky() {
     const background = {
-        backgroundImage: `url(${SilverFeet})`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${SilverFeet})`
     }
     return (
         <div className="page-container" style={background}>

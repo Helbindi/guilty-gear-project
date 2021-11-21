@@ -11,7 +11,7 @@ import Trailer from '../assets/videos/Gio/Trailer.mp4';
 
 function Giovanna() {
     const background = {
-        backgroundImage: `url(${Ajatar})`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${Ajatar})`
     }
 
     return (

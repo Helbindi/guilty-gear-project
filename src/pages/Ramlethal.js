@@ -11,7 +11,7 @@ import trailer from '../assets/videos/Ram/trailer.mp4';
 
 function Ramlethal() {
     const background = {
-        backgroundImage: `url(${SeventhHeaven})`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${SeventhHeaven})`
     }
     return (
         <div className="page-container" style={background}>

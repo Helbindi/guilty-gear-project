@@ -13,6 +13,7 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
+  justify-content: space-evenly;
 }
 
 .song-container h2 {
@@ -24,16 +25,15 @@
 }
 
 .song-info {
-  margin: 0 auto;
   max-width: 500px;
 }
 
 .prev-btn,
 .next-btn {
   background-color: gray;
-  width: 75px;
-  height: 75px;
-  margin: 1em auto;
+  width: 70px;
+  height: 70px;
+  margin: 1em 0;
 }
 
 .prev-btn:hover,

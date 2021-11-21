@@ -11,7 +11,7 @@ import trailer from '../assets/videos/Nago/trailer.mp4';
 
 function Nago() {
     const background = {
-        backgroundImage: `url(${Observatory})`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${Observatory})`
     }
     return (
         <div className="page-container" style={background}>
