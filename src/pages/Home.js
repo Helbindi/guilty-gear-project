@@ -5,6 +5,7 @@ import Music from '../component/Music';
 import './page.css';
 import LarsCanyon from '../assets/images/background/LarsCanyon.jpg';
 import image from '../assets/images/background/Product.jpg';
+import Footer from '../component/Footer';
 
 function Home() {
     const background = {
@@ -29,6 +30,7 @@ function Home() {
             </header>
         <Characters />
         <Music />
+        <Footer />
     </div>
     )
 }

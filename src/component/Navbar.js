@@ -1,15 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { FaBars, FaFacebook, FaTwitter, FaYoutube, FaGamepad, FaSteam, FaChevronDown } from 'react-icons/fa';
+import { FaBars, FaFacebook, FaTwitter, FaYoutube, FaChevronDown } from 'react-icons/fa';
 import { CharacterList } from '../data/CharacterList';
 import './Navbar.css';
 import logo from '../assets/images/gglogo.svg';
+import icon from '../assets/images/gg-icon.ico';
 
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false);
     const linksContainerRef = useRef(null);
     const linksRef = useRef(null);
 
-    const iconStyle = { color: "white", fontSize: "1em", margin: ".5em"};
+    const iconStyle = { color: "white", width: "20px", height: "20px", margin: ".5em"};
 
     useEffect(() => {
         if(!linksRef.current) return;
@@ -63,15 +64,13 @@ function Navbar() {
 
                 <ul className='social-icons'>
                     <a href="https://www.guiltygear.com/ggst/en/" target="_blank" rel="noopener noreferrer"> 
-                        <FaGamepad style={iconStyle}/> </a>
+                        <img src={icon} alt='logo' style={iconStyle} /> </a>
                     <a href="https://twitter.com/ArcSystemWorksU" target="_blank" rel="noopener noreferrer"> 
                         <FaTwitter  style={iconStyle}/> </a>
                     <a href="https://www.facebook.com/arcsystemworksu/" target="_blank" rel="noopener noreferrer"> 
                         <FaFacebook  style={iconStyle}/> </a>
                     <a href="https://www.youtube.com/channel/UClqUSY9SshvuFja6yNXp4nQ" target="_blank" rel="noopener noreferrer"> 
                         <FaYoutube  style={iconStyle}/> </a>
-                    <a href="https://store.steampowered.com/app/1384160/GUILTY_GEAR_STRIVE/" target="_blank" rel="noopener noreferrer"> 
-                        <FaSteam  style={iconStyle}/> </a>
                 </ul>
             </div>
         </nav>
