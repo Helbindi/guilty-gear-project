@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { FaBars, FaFacebook, FaTwitter, FaYoutube, FaGamepad, FaSteam } from 'react-icons/fa';
+import { FaBars, FaFacebook, FaTwitter, FaYoutube, FaGamepad, FaSteam, FaChevronDown } from 'react-icons/fa';
 import { CharacterList } from '../data/CharacterList';
 import './Navbar.css';
+import logo from '../assets/images/gglogo.svg';
 
 function Navbar() {
     const [showLinks, setShowLinks] = useState(false);
@@ -25,7 +26,7 @@ function Navbar() {
             <div className="navbar-center">
                 <div className="navbar-header">
                     <a href="/">
-                        <img src="images/gglogo.svg" className="logo" alt="logo"/>
+                        <img src={logo} className="logo" alt="logo"/>
                     </a>
                     <button className="navbar-toggle" onClick={() => setShowLinks(!showLinks)}>
                         <FaBars />
@@ -42,7 +43,7 @@ function Navbar() {
                         </li>
                         <li>
                             <div class="dropdown">
-                                <a class="btn-drop">Characters</a>
+                                <a class="btn-drop">Characters <FaChevronDown className='dropdown-icon'/></a>
                                 <div class="dropdown-content">
                                     {CharacterList.map((character) => {
                                         return (

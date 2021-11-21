@@ -64,6 +64,10 @@ nav {
   transition: all 0.3s linear;
 }
 
+.links {
+  border-top: 1px solid red;
+}
+
 .links a:hover {
   color: red;
   padding-left: 1.5em;
@@ -77,6 +81,11 @@ nav {
 
 .social-icons {
   display: none;
+}
+
+.dropdown-icon {
+  width: 0.5em;
+  height: 0.5em;
 }
 
 /* Dropdown */
@@ -98,6 +107,7 @@ nav {
 .dropdown-link {
   display: flex;
   align-items: center;
+  padding-bottom: 0.5em;
   border-bottom: 1px solid black;
   overflow: hidden;
 }
@@ -109,6 +119,7 @@ nav {
 .dropdown-img {
   height: 50px;
   object-fit: cover;
+  margin-right: 0.5em;
 }
 
 .dropdown-link:hover {
@@ -139,6 +150,7 @@ nav {
   }
   .links {
     display: flex;
+    border-top: none;
   }
   .links a {
     padding: 0;

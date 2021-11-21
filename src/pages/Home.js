@@ -4,6 +4,7 @@ import Characters from '../component/Characters';
 import Music from '../component/Music';
 import './page.css';
 import LarsCanyon from '../assets/images/background/LarsCanyon.jpg';
+import image from '../assets/images/background/Product.jpg';
 
 function Home() {
     const background = {
@@ -13,7 +14,7 @@ function Home() {
     <div className="page-container" style={background}>
         <header className="page-header">
                 <div className="page-header-img">
-                    <img src="images/background/Product.jpg" alt="Product" />
+                    <img src={image} alt="Product" />
                     <div className="btn-group">
                         <a href="https://www.guiltygear.com/ggst/en/" 
                         target="_blank" rel="noopener noreferrer" 
