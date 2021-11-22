@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 // pages
 import Home from '../pages/Home';
@@ -17,15 +17,15 @@ function ReactRouter() {
       <Router>
         <ScrollToTop />
         <Navbar />
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/About' component={About} />
-          <Route exact path='/Giovanna' component={Giovanna} />
-          <Route exact path='/Ramlethal' component={Ramlethal} />
-          <Route exact path='/Sol' component={Sol} />
-          <Route exact path='/Ky' component={Ky} />
-          <Route exact path='/Nagoriyuki' component={Nago} />
-        </Switch>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/Giovanna' element={<Giovanna />} />
+          <Route path='/Ramlethal' element={<Ramlethal />} />
+          <Route path='/Sol' element={<Sol />} />
+          <Route path='/Ky' element={<Ky />} />
+          <Route path='/Nagoriyuki' element={<Nago />} />
+        </Routes>
       </Router>
   );
 };
