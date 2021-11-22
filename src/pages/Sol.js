@@ -8,6 +8,8 @@ import './page.css';
 import TimesSquare from '../assets/images/background/TimesSquare.jpg';
 import image from '../assets/images/background/Sol.jpg';
 import trailer from '../assets/videos/Sol/trailer.mp4'
+import BackToTop from '../component/BackToTop';
+import Footer from '../component/Footer';
 
 function Sol() {
     const background = {
@@ -29,6 +31,9 @@ function Sol() {
             <MoveList data={BasicMoves} title="Basic Moves"/>
             <MoveList data={SpecialMoves} title="Special Moves"/>
             <MoveList data={Overdrive} title="Overdrive"/>
+            
+            <BackToTop />
+            <Footer />
         </div>
     )
 }

@@ -8,6 +8,8 @@ import './page.css';
 import Observatory from '../assets/images/background/Observatory.jpg';
 import image from '../assets/images/background/Nago.jpg';
 import trailer from '../assets/videos/Nago/trailer.mp4';
+import BackToTop from '../component/BackToTop';
+import Footer from '../component/Footer';
 
 function Nago() {
     const background = {
@@ -28,6 +30,9 @@ function Nago() {
             <MoveList data={BasicMoves} title="Basic Moves"/>
             <MoveList data={SpecialMoves} title="Special Moves"/>
             <MoveList data={Overdrive} title="Overdrive"/>
+            
+            <BackToTop />
+            <Footer />
         </div>
     )
 }

@@ -18,7 +18,7 @@ function ReactRouter() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home />} /> 
           <Route path='/About' element={<About />} />
           <Route path='/Giovanna' element={<Giovanna />} />
           <Route path='/Ramlethal' element={<Ramlethal />} />

@@ -6,6 +6,7 @@ import './page.css';
 import LarsCanyon from '../assets/images/background/LarsCanyon.jpg';
 import image from '../assets/images/background/Product.jpg';
 import Footer from '../component/Footer';
+import BackToTop from '../component/BackToTop';
 
 function Home() {
     const background = {
@@ -30,6 +31,8 @@ function Home() {
             </header>
         <Characters />
         <Music />
+        
+        <BackToTop />
         <Footer />
     </div>
     )

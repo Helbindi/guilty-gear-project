@@ -2,6 +2,7 @@ import React from 'react';
 import './page.css';
 import Jellyfish  from '../assets/images/background/Jellyfish.jpg';
 import image from '../assets/images/background/Product.jpg';
+import Footer from '../component/Footer';
 
 function About() {
     const background = {
@@ -23,6 +24,8 @@ function About() {
                     </p>
                 </section>
             </header>
+            
+            <Footer />
         </div>
     )
 }

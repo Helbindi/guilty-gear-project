@@ -8,6 +8,8 @@ import './page.css';
 import SilverFeet from '../assets/images/background/SilverFeet.jpg';
 import image from '../assets/images/background/Ky.jpg';
 import trailer from '../assets/videos/Sol/trailer.mp4'
+import BackToTop from '../component/BackToTop';
+import Footer from '../component/Footer';
 
 function Ky() {
     const background = {
@@ -28,6 +30,9 @@ function Ky() {
             <MoveList data={BasicMoves} title="Basic Moves"/>
             <MoveList data={SpecialMoves} title="Special Moves"/>
             <MoveList data={Overdrive} title="Overdrive"/>
+            
+            <BackToTop />
+            <Footer />
         </div>
     )
 }

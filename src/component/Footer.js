@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaYoutube, FaSteam, FaPlaystation} from 'react-icons/fa';
+import BackToTop from './BackToTop';
 import './Footer.css';
 import icon from '../assets/images/gg-icon.ico';
 
@@ -33,6 +34,7 @@ function Footer() {
                         <FaSteam  className='icon-style'/> </a>
                     <a href="https://store.playstation.com/en-us/product/UP0036-PPSA02181_00-GGSTPS5US0000100" target="_blank" rel="noopener noreferrer"> 
                         <FaPlaystation  className='icon-style'/> </a>
+                    <BackToTop />
                 </ul>
             </div>
         </div>

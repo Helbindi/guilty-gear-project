@@ -112,3 +112,11 @@
   font-size: 1.5em;
   font-weight: 700;
 }
+
+/* BackToTop.js */
+.back-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 1rem;
+  cursor: pointer;
+}

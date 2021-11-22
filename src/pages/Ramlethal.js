@@ -8,6 +8,8 @@ import './page.css';
 import SeventhHeaven from '../assets/images/background/SeventhHeaven.jpg';
 import image from '../assets/images/background/Ram.jpg';
 import trailer from '../assets/videos/Ram/trailer.mp4';
+import BackToTop from '../component/BackToTop';
+import Footer from '../component/Footer';
 
 function Ramlethal() {
     const background = {
@@ -28,6 +30,9 @@ function Ramlethal() {
             <MoveList data={BasicMoves} title="Basic Moves"/>
             <MoveList data={SpecialMoves} title="Special Moves"/>
             <MoveList data={Overdrive} title="Overdrive"/>
+            
+            <BackToTop />
+            <Footer />
         </div>
     )
 }

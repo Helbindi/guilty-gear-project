@@ -8,6 +8,8 @@ import './page.css';
 import Ajatar from '../assets/images/background/Ajatar.jpg';
 import image from '../assets/images/background/Gio.jpg';
 import Trailer from '../assets/videos/Gio/Trailer.mp4';
+import BackToTop from '../component/BackToTop';
+import Footer from '../component/Footer';
 
 function Giovanna() {
     const background = {
@@ -29,6 +31,9 @@ function Giovanna() {
             <MoveList data={BasicMoves} title="Basic Moves"/>
             <MoveList data={SpecialMoves} title="Special Moves"/>
             <MoveList data={Overdrive} title="Overdrive"/>
+            
+            <BackToTop />
+            <Footer />
         </div>
     )
 }
