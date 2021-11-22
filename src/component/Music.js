@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy';
 import { MusicList } from '../data/MusicList';
 import './Music.css';
 
