@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars, FaFacebook, FaTwitter, FaYoutube, FaGamepad, FaSteam, FaPlaystation} from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaYoutube, FaSteam, FaPlaystation} from 'react-icons/fa';
 import './Footer.css';
 import icon from '../assets/images/gg-icon.ico';
 

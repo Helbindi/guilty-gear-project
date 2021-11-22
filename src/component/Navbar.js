@@ -47,8 +47,9 @@ function Navbar() {
                                 <a class="btn-drop">Characters <FaChevronDown className='dropdown-icon'/></a>
                                 <div class="dropdown-content">
                                     {CharacterList.map((character) => {
+                                        let link = `/${character.name}`;
                                         return (
-                                            <a href={`/${character.name}`}>
+                                            <a href={link}>
                                                 <div className="dropdown-link">
                                                     <img src={character.imageURL} alt="" className="dropdown-img"/>
                                                     {character.name}

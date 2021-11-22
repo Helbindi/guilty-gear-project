@@ -24,7 +24,7 @@ function DisplayMoves(props) {
         setIsPlaying(false);
       }
     }
-  }, [isVisible]);
+  }, [isVisible, isPlaying]);
 
   return (
     <div className="container">
