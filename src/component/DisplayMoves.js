@@ -27,7 +27,7 @@ function DisplayMoves(props) {
   }, [isVisible, isPlaying]);
 
   return (
-    <div className="container">
+    <div className="moves-container">
       <h2> {props.name} </h2>
       <div className="content-left">
           {

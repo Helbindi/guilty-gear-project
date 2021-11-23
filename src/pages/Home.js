@@ -33,7 +33,6 @@ function Home() {
         <Music />
         
         <BackToTop />
-        <Footer />
     </div>
     )
 }

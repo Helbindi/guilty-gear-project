@@ -32,7 +32,6 @@ function Nago() {
             <MoveList data={Overdrive} title="Overdrive"/>
             
             <BackToTop />
-            <Footer />
         </div>
     )
 }

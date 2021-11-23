@@ -1,4 +1,4 @@
-.container {
+.moves-container {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -8,7 +8,7 @@
   border: 1px solid #d8f8dd;
 }
 
-.container h1 {
+.moves-container h1 {
   font-size: 2.5rem;
   line-height: 1.25;
   color: aliceblue;
@@ -70,7 +70,7 @@ h2 {
 }
 
 @media screen and (max-width: 1300px) {
-  .container {
+  .moves-container {
     flex-direction: column;
     margin: 25px;
   }
@@ -82,7 +82,7 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
-  .container {
+  .moves-container {
     padding: 15px;
     margin: 25px auto;
   }

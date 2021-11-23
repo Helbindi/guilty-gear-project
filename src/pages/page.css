@@ -9,6 +9,7 @@
 
 .page-container {
   padding-top: 5em;
+  padding-bottom: 1em;
   min-width: 320px;
   min-height: 100vh;
   background-position: center center;

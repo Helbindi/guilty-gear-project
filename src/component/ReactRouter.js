@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
+import Footer from './Footer';
 // pages
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -26,6 +27,7 @@ function ReactRouter() {
           <Route path='/Ky' element={<Ky />} />
           <Route path='/Nagoriyuki' element={<Nago />} />
         </Routes>
+        <Footer />
       </Router>
   );
 };
