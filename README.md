@@ -1,6 +1,6 @@
 # Deployment
 
-[My Guilty Gear App](https://helbindi-gg-project.netlify.app/)
+Netlify: https://helbindi-gg-project.netlify.app/
 
 # Getting Started with Create React App
 
