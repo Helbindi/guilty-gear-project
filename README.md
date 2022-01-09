@@ -1,4 +1,4 @@
-# Netlify Demo
+# Deployment
 
 [My Guilty Gear App](https://helbindi-gg-project.netlify.app/)
 
