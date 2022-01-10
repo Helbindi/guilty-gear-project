@@ -2,6 +2,9 @@
 
 Netlify: https://helbindi-gg-project.netlify.app/
 
+# Design
+Figma: https://www.figma.com/file/naUdDx5CWXqnweUSqPLv5J/Guilty-Gear
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
